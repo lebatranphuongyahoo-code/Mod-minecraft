@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cataclysm: Natural Disasters BP",
+    "description": "Server-authoritative natural disasters for Bedrock Edition",
+    "uuid": "9f9efb2e-2aa1-4e6d-9d7e-3e1a5b84d431",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 80]
+  },
+  "modules": [
+    { "type": "data", "uuid": "02f9d2cc-7c29-46ef-a3b8-4b32f91a0d54", "version": [1, 0, 0] },
+    { "type": "script", "language": "javascript", "entry": "scripts/main.js", "uuid": "1b42f0af-34aa-4f24-91cf-3d4748734d5b", "version": [1, 0, 0] }
+  ],
+  "dependencies": [
+    { "uuid": "b5c5f8dc-c3db-4a8a-9169-5fdb5a9a2e10", "version": [1, 0, 0] },
+    { "module_name": "@minecraft/server", "version": "1.12.0" }
+  ]
+}

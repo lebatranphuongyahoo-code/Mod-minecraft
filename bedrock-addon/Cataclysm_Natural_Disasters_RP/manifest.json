@@ -1,0 +1,13 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cataclysm: Natural Disasters RP",
+    "description": "Atmosphere, particles and UI for Cataclysm Natural Disasters",
+    "uuid": "b5c5f8dc-c3db-4a8a-9169-5fdb5a9a2e10",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 80]
+  },
+  "modules": [
+    { "type": "resources", "uuid": "d40a83e8-42d8-4e5a-8a6f-6a711d99f5ab", "version": [1, 0, 0] }
+  ]
+}
